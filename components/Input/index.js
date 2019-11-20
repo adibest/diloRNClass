@@ -3,7 +3,7 @@ import {StyleSheet, TextInput} from 'react-native';
 
 const InputComponent = (props) => {
   const onChangeText = newValue => {
-    props.handleChange(newValue, prpos.name)
+    props.handleChange(newValue, props.name)
   }
 
   return (
@@ -25,4 +25,4 @@ const styles = StyleSheet.create({
   }
 })
 
-export default InputComponent
+export default InputComponent;

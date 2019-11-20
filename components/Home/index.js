@@ -32,10 +32,10 @@ const HomeComponent = () => {
         handleChange={handleChange}
       />
       <InputComponent
-      placeholder='Repository Name'
-      value={state.repository}
-      name='repository'
-      handleChange={handleChange}
+        placeholder='Repository Name'
+        value={state.repository}
+        name='repository'
+        handleChange={handleChange}
       />
     </View>
   );
@@ -47,4 +47,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HomeComponent
+export default HomeComponent;
