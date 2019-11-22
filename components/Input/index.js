@@ -20,8 +20,9 @@ const InputComponent = (props) => {
 const styles = StyleSheet.create({
   textInput: {
     height: 40,
-    borderColor: '#fafafa',
+    borderColor: '#000',
     borderWidth: 1,
+    padding: 5,
   }
 })
 
